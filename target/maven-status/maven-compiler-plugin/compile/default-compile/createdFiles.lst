@@ -1,7 +1,9 @@
-<<<<<<< HEAD
-guru/springframework/sfg_di_1/controller/ActuatorDocsController.class
+guru/springframework/sfg_di_1/services/GreetingService.class
+guru/springframework/sfg_di_1/controllers/MyController.class
+guru/springframework/sfg_di_1/controllers/PropertyInjectedController.class
+guru/springframework/sfg_di_1/services/GreetingServiceImpl.class
 guru/springframework/sfg_di_1/SfgDi1Application.class
 guru/springframework/sfg_di_1/config/ActuatorConfig.class
-=======
-guru/springframework/sfgdi/SfgDiApplication.class
->>>>>>> add-spring-project
+guru/springframework/sfg_di_1/controllers/ConstructorIngectedController.class
+guru/springframework/sfg_di_1/controller/ActuatorDocsController.class
+guru/springframework/sfg_di_1/controllers/SetterInjectedController.class
