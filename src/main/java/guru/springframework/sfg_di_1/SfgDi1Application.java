@@ -2,6 +2,7 @@ package guru.springframework.sfg_di_1;
 
 import guru.springframework.sfg_di_1.controllers.ConstructorInjectedController;
 import guru.springframework.sfg_di_1.controllers.ConstructorInjectedController;
+import guru.springframework.sfg_di_1.controllers.I18nController;
 import guru.springframework.sfg_di_1.controllers.MyController;
 import guru.springframework.sfg_di_1.controllers.PropertyInjectedController;
 import guru.springframework.sfg_di_1.controllers.SetterInjectedController;
@@ -23,8 +24,11 @@ public class SfgDi1Application {
 
 		ApplicationContext ctx = SpringApplication.run(SfgDi1Application.class, args);
 
-		MyController myController = (MyController) ctx.getBean("myController");
+		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
+		System.out.println("-------------- Profile Bean");
+		System.out.println(i18nController.sayHello());
 
+		MyController myController = (MyController) ctx.getBean("myController");
 
 		System.out.println("-------- Primary Bean");
 		System.out.println(myController.sayHello());
